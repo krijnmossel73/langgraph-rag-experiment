@@ -1,0 +1,8 @@
+{"question": "What is corrective RAG?", "answer": "A RAG pattern that grades retrieved documents for relevance and rewrites the query if retrieval fails."}
+{"question": "What does HNSW stand for in vector search?", "answer": "Hierarchical Navigable Small World, an approximate nearest neighbour index."}
+{"question": "What is the difference between ReAct and plan-and-execute agents?", "answer": "ReAct interleaves reasoning and acting; plan-and-execute produces a full plan up front and then executes it."}
+{"question": "Why use hybrid retrieval?", "answer": "Pure vector search underperforms on queries with rare named entities or exact identifiers, where lexical search is stronger."}
+{"question": "What is faithfulness in RAG evaluation?", "answer": "Whether the generated answer is supported by the retrieved context, typically scored by an LLM judge."}
+{"question": "How does the reflection pattern work?", "answer": "The agent produces an answer, a critic inspects it for errors, and the original answer is revised based on the critique."}
+{"question": "Why chunk documents before embedding?", "answer": "Embedding models have small context windows and sub-document retrieval is more precise."}
+{"question": "What is a typical bound for query rewrites in CRAG?", "answer": "A small fixed number such as two to prevent infinite loops."}
